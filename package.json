@@ -1,0 +1,32 @@
+{
+  "name": "knockout-es6",
+  "version": "0.1.0",
+  "description": "Knockout.js meets ECMAScript 6 modules",
+  "author": "Moshe Katz",
+  "main": "src/knockout-es6.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kohenkatz/knockout-es6.git"
+  },
+  "keywords": [
+    "knockout",
+    "es6",
+    "data-binding"
+  ],
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "grunt test"
+  },
+  "license": "MIT",
+  "jspm": {
+    "configFile": "system.config.js",
+    "dependencies": {
+      "knockout": "npm:knockout@^3.3.0"
+    }
+  },
+  "devDependencies": {
+    "jspm": "^0.16.13"
+  }
+}
