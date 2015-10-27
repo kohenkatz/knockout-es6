@@ -21,10 +21,14 @@
   },
   "license": "MIT",
   "jspm": {
+    "directories": {
+      "test": "test"
+    },
     "configFile": "system.config.js",
     "dependencies": {
       "knockout": "npm:knockout@^3.3.0"
-    }
+    },
+    "devDependencies": {}
   },
   "devDependencies": {
     "jspm": "^0.16.13"
