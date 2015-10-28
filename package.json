@@ -17,7 +17,7 @@
     "test": "test"
   },
   "scripts": {
-    "test": "grunt test"
+    "test": "./node_modules/.bin/mocha --compilers js:babel/register test"
   },
   "license": "MIT",
   "jspm": {
