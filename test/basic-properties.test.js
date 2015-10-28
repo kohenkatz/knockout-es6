@@ -140,7 +140,7 @@ describe('Basic properties', function () {
       assert.equal( obj.prop, 457);
 
       // Also verify it's read-only
-      obj.prop = 789;
+      assert.throw(() => { obj.prop = 789; }, 'Cannot set property prop of [object Object] which has only a getter');
       assert.equal( obj.prop, 457);
       assert.equal( computed(), 457);
     });
